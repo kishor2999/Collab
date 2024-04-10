@@ -1,0 +1,85 @@
+table {
+    width: 85%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Table header styling */
+  th {
+    background-color: #2d79f3;
+    border: 2px solid #000000;
+    padding: 8px;
+    text-align: left;
+    font-size: larger;
+  }
+  
+  /* Table cell styling */
+  td {
+    border: 2px solid #000000;
+    padding: 8px;
+    font-size: medium;
+
+  }
+  
+  /* Alternating row colors */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+  .user-table-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for search input */
+  .search-input {
+    width:50%;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  /* Styles for search input placeholder */
+  .search-input::placeholder {
+    color: #999;
+  }
+  
+  /* Styles for search input focus */
+  .search-input:focus {
+    border-color: #66afe9;
+  }
+  
+  /* Styles for search icon */
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-80%);
+    color: #666;
+    cursor: pointer;
+  }
+  
+  /* Styles for search icon on focus */
+  .search-input:focus + .search-icon {
+    color: #333;
+  }
